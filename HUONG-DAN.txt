@@ -1,0 +1,35 @@
+SỔ CHI TIÊU - HƯỚNG DẪN ĐƯA LÊN MẠNG VÀ CÀI VÀO ĐIỆN THOẠI
+
+Thư mục này gồm: index.html (ứng dụng), manifest.webmanifest và sw.js (để cài và chạy offline), 3 file biểu tượng .png.
+Giữ nguyên tên file, không đổi tên hay tách file.
+
+A. ĐƯA LÊN MẠNG (chọn 1 cách, đều miễn phí)
+
+Cách 1 - Netlify Drop (dễ nhất)
+1. Giải nén file zip, được thư mục "so-chi-tieu-app".
+2. Vào https://app.netlify.com/drop
+3. Kéo cả thư mục vào khung trên trang. Làm theo gợi ý đăng ký/đăng nhập (miễn phí) để trang không bị xóa sau một thời gian.
+4. Netlify cho bạn một link dạng https://ten-gi-do.netlify.app. Đó là địa chỉ ứng dụng của bạn.
+
+Cách 2 - GitHub Pages
+1. Tạo tài khoản GitHub, tạo repository mới (để Public).
+2. Bấm "Add file" > "Upload files", kéo toàn bộ file trong thư mục vào, rồi Commit.
+3. Vào Settings > Pages, chọn Deploy from a branch, nhánh main, thư mục /(root), Save.
+4. Chờ 1-2 phút, link có dạng https://ten-ban.github.io/ten-repo/
+
+B. CÀI VÀO ĐIỆN THOẠI
+- iPhone: mở link bằng Safari > nút Chia sẻ > Thêm vào MH chính.
+- Android: mở link bằng Chrome > menu ba chấm > Cài đặt ứng dụng (hoặc Thêm vào màn hình chính).
+Sau khi cài, mở từ biểu tượng ngoài màn hình chính. Lần đầu mở cần có mạng, sau đó dùng được offline.
+
+C. CHUYỂN DỮ LIỆU TỪ BẢN CŨ SANG ỨNG DỤNG MỚI
+Dữ liệu 12/9-8/10 đã có sẵn trong ứng dụng mới. Các khoản bạn nhập tay ở bản cũ thì chuyển như sau:
+1. Ở bản cũ, kéo xuống cuối trang, bấm "Sao chép dữ liệu".
+2. Mở ứng dụng mới, kéo xuống cuối trang, dán vào ô, bấm "Khôi phục từ ô trên".
+Khôi phục chỉ thêm giao dịch chưa có, không tạo trùng.
+
+D. LƯU Ý
+- Dữ liệu lưu trên chính thiết bị. Xóa dữ liệu trình duyệt hoặc gỡ app sẽ mất sổ.
+- Hãy sao lưu định kỳ (Sao chép dữ liệu hoặc Tải file sao lưu) rồi gửi cho chính mình.
+- Điện thoại và máy tính dùng riêng dữ liệu, chưa đồng bộ với nhau. Muốn chuyển qua lại, dùng Sao lưu/Khôi phục.
+- Khi sửa app và đưa bản mới lên, đổi số trong CACHE ("so-chi-tieu-v12") trong sw.js để máy nhận bản mới nhanh hơn.
